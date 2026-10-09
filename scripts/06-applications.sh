@@ -75,13 +75,14 @@ sudo dnf install -y google-chrome-stable
 # 7. Install Fonts
 echo "[6/7] Installing fonts..."
 
+# 7. Install Fonts
+echo "[6/7] Installing fonts..."
+
 sudo dnf install -y \
     jetbrains-mono-fonts \
     google-roboto-fonts \
-    google-inter-fonts \
     google-noto-sans-fonts \
-    google-rubik-fonts \
-    google-lato-fonts
+    google-rubik-fonts
 
 # Rebuild font cache
 fc-cache -f
