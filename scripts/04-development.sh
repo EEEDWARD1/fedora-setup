@@ -24,7 +24,7 @@ sudo -v
 # 3. Install Development Toolchain
 echo "[2/8] Installing development toolchain..."
 
-sudo dnf group install -y "Development Tools"
+sudo dnf group install -y development-tools
 
 sudo dnf install -y \
     gcc \
